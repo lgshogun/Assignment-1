@@ -1,0 +1,43 @@
+/* Everything is just the basics to make the site look nice. */
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    border-style: none;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    background-color: #7f8c8d;
+}
+
+table{
+    margin: 20rem 0;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th{
+    font-size: 2rem;
+    text-align: center;
+    padding: 1rem;
+    border: 0.01rem solid white;
+}
+
+.title th{
+    font-size: 3rem;
+    font-variant: small-caps;
+    color: #34495e;
+
+    font-style: italic;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
